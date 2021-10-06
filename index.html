@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Admin</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="">
+              <span class="icon"><ion-icon name="analytics-outline"></ion-icon></span>
+              <span class="title">Brand</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="icon"><ion-icon name="barbell-outline"></ion-icon></span>
+              <span class="title">Menu 2</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="icon"
+                ><ion-icon name="cafe-outline"></ion-icon></span>
+              <span class="title">Menu 3</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+              <span class="title">Menu 4</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="icon"><ion-icon name="color-fill-outline"></ion-icon></span>
+              <span class="title">Menu 5</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span class="icon"><ion-icon name="eyedrop-outline"></ion-icon></span>
+              <span class="title">Menu 6</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- main -->
+      <div class="main">
+        <div class="topbar">
+          <div class="toggle">
+            <ion-icon name="menu"></ion-icon>
+          </div>
+          <!-- Search -->
+          <div class="search">
+            <label>
+              <input type="text" placeholder="Buscar" />
+              <ion-icon name="search"></ion-icon>
+            </label>
+          </div>
+          <!-- userImg -->
+          <div class="user">
+            <img src="./assets/images/user.png" alt="" />
+          </div>
+        </div>
+
+      <!-- Cards -->
+        <div class="cardBox">
+            <div class="card">
+                <div>
+                    <div class="numbers">1.555</div>
+                    <div class="cardName">Visitas Diarias</div>
+                </div>
+                <div class="iconBox">
+                    <ion-icon name="eye"></ion-icon>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="numbers">2500</div>
+                    <div class="cardName">Ventas Diarias</div>
+                </div>
+                <div class="iconBox">
+                    <ion-icon name="finger-print"></ion-icon>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="numbers">4000</div>
+                    <div class="cardName">Altas</div>
+                </div>
+                <div class="iconBox">
+                    <ion-icon name="pricetag"></ion-icon>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="numbers">1.555</div>
+                    <div class="cardName">Sin visitar</div>
+                </div>
+                <div class="iconBox">
+                    <ion-icon name="trophy"></ion-icon>
+                </div>
+            </div>
+        </div> 
+
+        <div class="details">
+          <!-- Order details list -->
+            <div class="recentOrders">
+                <div class="cardHeader">
+                    <h2>Recent Orders</h2>
+                    <a href="#" class="btn">View All</a>
+                </div>
+                <table>
+                  <thead>
+                    <tr>
+                      <td>Name</td>
+                      <td>Price</td>
+                      <td>Payment</td>
+                      <td>Status</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Mango</td>
+                      <td>$1200</td>
+                      <td>Paid</td>
+                      <td><span class="status delivered">Delivered</span></td>
+                    </tr>
+                    <tr>
+                      <td>Fresa</td>
+                      <td>$1400</td>
+                      <td>Paid</td>
+                      <td><span class="status pending">Pending</span></td>
+                    </tr>
+                    <tr>
+                      <td>Mora</td>
+                      <td>$800</td>
+                      <td>Paid</td>
+                      <td><span class="status return">Return</span></td>
+                    </tr>
+                    <tr>
+                      <td>Mango</td>
+                      <td>$1200</td>
+                      <td>Paid</td>
+                      <td><span class="status pending">Pending</span></td>
+                    </tr>
+                    <tr>
+                      <td>Mango</td>
+                      <td>$1200</td>
+                      <td>Paid</td>
+                      <td><span class="status delivered">Delivered</span></td>
+                    </tr>
+                    <tr>
+                      <td>Pera</td>
+                      <td>$1900</td>
+                      <td>Paid</td>
+                      <td><span class="status return">Return</span></td>
+                    </tr>
+                    <tr>
+                      <td>Mango</td>
+                      <td>$1200</td>
+                      <td>Paid</td>
+                      <td><span class="status delivered">Delivered</span></td>
+                    </tr>
+                    <tr>
+                      <td>Patilla</td>
+                      <td>$800</td>
+                      <td>Paid</td>
+                      <td><span class="status return">Return</span></td>
+                    </tr>
+                    <tr>
+                      <td>Mango</td>
+                      <td>$1200</td>
+                      <td>Paid</td>
+                      <td><span class="status inProgress">In Progress</span></td>
+                    </tr>
+                    <tr>
+                      <td>Mango</td>
+                      <td>$1200</td>
+                      <td>Paid</td>
+                      <td><span class="status inProgress">In Progress</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+
+          <!-- New Customers -->
+            <div class="recentCustomers">
+              <div class="cardHeader">
+                <h2>Recent Customers</h2>
+              </div>
+              <table>
+                <tr>
+                  <td width="60px"><div class="imgBox"><img src="./assets/images/user.png"></div></td>
+                  <td><h4>Jhon<br><span>España</span></h4></td>
+                </tr>
+                <tr>
+                  <td width="60px"><div class="imgBox"><img src="./assets/images/user.png"></div></td>
+                  <td><h4>Jaime<br><span>Inglaterra</span></h4></td>
+                </tr>
+                <tr>
+                  <td width="60px"><div class="imgBox"><img src="./assets/images/user.png"></div></td>
+                  <td><h4>Diego<br><span>Colombia</span></h4></td>
+                </tr>
+                <tr>
+                  <td width="60px"><div class="imgBox"><img src="./assets/images/user.png"></div></td>
+                  <td><h4>Mario<br><span>España</span></h4></td>
+                </tr>
+                <tr>
+                  <td width="60px"><div class="imgBox"><img src="./assets/images/user.png"></div></td>
+                  <td><h4>William<br><span>Italia</span></h4></td>
+                </tr>
+                <tr>
+                  <td width="60px"><div class="imgBox"><img src="./assets/images/user.png"></div></td>
+                  <td><h4>Juan<br><span>Usa</span></h4></td>
+                </tr>
+              </table>
+            </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
